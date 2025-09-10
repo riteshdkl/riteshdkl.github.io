@@ -334,6 +334,7 @@ section {
     border: 2px solid black;
     padding: 2rem 8rem;
     font-size: 3rem;
+    resize: none;
     /*    
     margin-bottom: 5rem; */
 
