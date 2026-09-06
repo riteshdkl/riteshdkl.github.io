@@ -6,6 +6,12 @@ menuIcon.onclick = () => {
     navLinks.classList.toggle('active');
 }
 
+navLinks.querySelectorAll('a').forEach((link) => {
+    link.addEventListener('click', () => {
+        navLinks.classList.remove('active');
+    });
+});
+
 // Theme toggle (persisted in localStorage, falls back to system preference)
 (() => {
     const root = document.documentElement;
